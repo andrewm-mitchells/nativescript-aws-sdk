@@ -22,7 +22,7 @@
     "tslint": "~5.4.3",
     "typescript": "~4.0.0",
     "uglifyjs-webpack-plugin": "~1.1.6",
-    "@nativescript/types": "6.5.0",
+    "@nativescript/types": "~8.0.0",
     "@nativescript/webpack": "~5.0.0-beta.0"
   },
   "scripts": {
