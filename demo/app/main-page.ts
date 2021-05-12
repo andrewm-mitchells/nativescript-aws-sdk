@@ -1,11 +1,10 @@
-import * as observable from 'tns-core-modules/data/observable';
-import * as pages from 'tns-core-modules/ui/page';
+import * as observable from '@nativescript/core/data/observable';
+import * as pages from '@nativescript/core/ui/page';
 import { HelloWorldModel } from './main-view-model';
 import { S3 } from 'nativescript-aws-sdk/s3';
-import { isIOS } from 'tns-core-modules/platform';
-import * as fs from 'tns-core-modules/file-system';
-import * as imageSource from 'tns-core-modules/image-source';
-import { Image } from 'tns-core-modules/ui/image';
+import { isIOS, Image } from '@nativescript/core';
+import * as fs from '@nativescript/core/file-system';
+import * as imageSource from '@nativescript/core/image-source';
 // Event handler for Page 'loaded' event attached in main-page.xml
 let page;
 let model = new HelloWorldModel();

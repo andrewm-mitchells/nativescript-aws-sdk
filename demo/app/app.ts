@@ -1,4 +1,4 @@
 ﻿import './bundle-config';
-import * as application from 'tns-core-modules/application';
+import * as application from '@nativescript/core/application';
 
 application.start({moduleName: 'main-page'});
